@@ -9,13 +9,13 @@ def read_requirements(path='requirements.txt'):
         return [line.strip() for line in f if line.strip() and not line.startswith('#')]
 
 setup(
-    name='GMMPytorch',  # Replace if you rename the package
-    version='0.1.0',  # Initial version of your fork
+    name='GMMPytorch',         # Package name matching your root folder
+    version='0.1.0',           # Version of your fork
     description='Gradient-based Gaussian Mixture Models for PyTorch',
-    author='Michael Ogezi',  # TODO: update with your name
-    author_email='mikeogezi@users.noreply.github.com',  # TODO: update with your email
-    url='https://github.com/mikeogezi/GMMPytorch',  # TODO: update with your repo URL
-    packages=find_packages(),  # Automatically include all packages under src/
+    author='Michael Ogezi',
+    author_email='michael@outlook.com',
+    url='https://github.com/mikeogezi/GMMPytorch',
+    packages=find_packages(),   # Auto-discovers GMMPytorch and submodules at repo root
     install_requires=read_requirements(),  # Dependencies listed in requirements.txt
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -24,5 +24,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.7',  # Specify minimum Python version
+    python_requires='>=3.7',    # Minimum Python version
 )
+
