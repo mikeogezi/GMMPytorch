@@ -2,7 +2,7 @@ import pytest
 import torch
 from torch.distributions import constraints
 
-from src.utils import make_random_scale_trils, make_random_cov_matrix, warp_probs
+from GMMPytorch.utils import make_random_scale_trils, make_random_cov_matrix, warp_probs
 
 
 @pytest.mark.parametrize(

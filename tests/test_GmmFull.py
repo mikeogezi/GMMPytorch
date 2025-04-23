@@ -2,7 +2,7 @@ import pytest
 import torch
 import numpy
 
-from src.model import GmmFull
+from GMMPytorch.model import GmmFull
 
 
 SEED = 42

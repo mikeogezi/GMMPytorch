@@ -2,10 +2,10 @@ import torch
 import numpy
 import argparse
 
-from src.data import generate_data
-from src.model import get_model
-from src.FamilyTypes import FAMILY_NAMES, get_mixture_family_from_str
-from src.visualize import plot_data_and_model
+from GMMPytorch.data import generate_data
+from GMMPytorch.model import get_model
+from GMMPytorch.FamilyTypes import FAMILY_NAMES, get_mixture_family_from_str
+from GMMPytorch.visualize import plot_data_and_model
 
 
 parser = argparse.ArgumentParser(description="Fit a gaussian mixture model to generated mock data")

@@ -3,8 +3,8 @@ from typing import Tuple, List
 import torch
 import numpy
 
-from src.FamilyTypes import MixtureFamily
-from src.utils import make_random_cov_matrix
+from GMMPytorch.FamilyTypes import MixtureFamily
+from GMMPytorch.utils import make_random_cov_matrix
 
 
 def generate_data(

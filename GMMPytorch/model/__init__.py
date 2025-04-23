@@ -4,7 +4,7 @@ from .full import GmmFull
 from .diagonal import GmmDiagonal
 from .isotropic import GmmIsotropic
 from .shared import GmmSharedIsotropic
-from src.FamilyTypes import MixtureFamily
+from GMMPytorch.FamilyTypes import MixtureFamily
 
 
 def get_model(

@@ -7,9 +7,9 @@ from torch.distributions import (
     MixtureSameFamily
 )
 
-from src.model.base import MixtureModel
-from src.FamilyTypes import MixtureFamily
-from src.utils import make_random_scale_trils
+from GMMPytorch.model.base import MixtureModel
+from GMMPytorch.FamilyTypes import MixtureFamily
+from GMMPytorch.utils import make_random_scale_trils
 
 
 class GmmFull(MixtureModel):

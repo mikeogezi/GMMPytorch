@@ -4,7 +4,7 @@ import warnings
 import matplotlib.pyplot as plt
 from scipy.stats import multivariate_normal
 
-from src.utils import warp_probs
+from GMMPytorch.utils import warp_probs
 
 
 COLORS = ["red", "blue", "green", "orange", "purple"]

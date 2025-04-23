@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 import torch
 from torch.distributions.utils import logits_to_probs
 
-from src.visualize import plot_data_and_model
+from GMMPytorch.visualize import plot_data_and_model
 
 
 class MixtureModel(ABC, torch.nn.Module):

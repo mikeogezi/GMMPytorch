@@ -8,7 +8,7 @@ from torch.distributions import (
     MixtureSameFamily
 )
 
-from src.model.base import MixtureModel
+from GMMPytorch.model.base import MixtureModel
 
 
 class GmmIsotropic(MixtureModel):
